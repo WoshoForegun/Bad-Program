@@ -88,7 +88,7 @@ def update(self, delta_time):
             def update(self, delta_time):
                 self.physics_engine.update()
                 self.physics_engine = arcade.PhysicsEnginePlatformer(self.player_sprite, self.wall_list, gravity_constant=GRAVITY)
-                
+               
 
 
 
